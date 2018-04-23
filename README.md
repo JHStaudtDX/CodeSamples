@@ -1,6 +1,6 @@
 # CodeSamples
 
-This is a collection of samples that have yet to reviewed for use in open source github.
+This is a collection of samples that have yet to be reviewed for use in open source github.
 
 # Current Items:
 • Audit API: Reviewer Statistics Report Query Sample
