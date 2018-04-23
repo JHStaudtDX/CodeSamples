@@ -46,7 +46,7 @@ namespace RelConsoleHub
                 var workspaceID = "WORKSPACEID";
                 var _user = "USERNAME";
                 var _pass = "PASSWORD";
-                var url = $"https://<YOURURL>-services.relativity.one/Relativity.REST/api/Relativity.Objects.Audits/workspaces/{workspaceID}/reviewerstatistics/query";
+                var url = $"https://< YOURURL >-services.relativity.one/Relativity.REST/api/Relativity.Objects.Audits/workspaces/{workspaceID}/reviewerstatistics/query";
 
                 //Set Headers, create JSON request
                 client.DefaultRequestHeaders.Add("Authorization", "Basic " + Convert.ToBase64String(Encoding.GetEncoding("ISO-8859-1").GetBytes($"{_user}:{_pass}")));
