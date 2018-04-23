@@ -43,9 +43,9 @@ namespace RelConsoleHub
             using (HttpClient client = new HttpClient())
             {
                 //Set Variables, add -services to R1 URL.
-                var workspaceID = "1020868";
-                var _user = "Test@Relativity.co";
-                var _pass = "Test1234!";
+                var workspaceID = "WORKSPACEID";
+                var _user = "USERNAME";
+                var _pass = "PASSWORD";
                 var url = $"https://kcura-current-sandbox-services.relativity.one/Relativity.REST/api/Relativity.Objects.Audits/workspaces/{workspaceID}/reviewerstatistics/query";
 
                 //Set Headers, create JSON request
